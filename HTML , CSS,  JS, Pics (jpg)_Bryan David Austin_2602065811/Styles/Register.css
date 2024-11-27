@@ -1,0 +1,185 @@
+* {
+    /* border: dashed 1px red ;  */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: none;
+    border: none; */
+}
+
+/* @media(max-width: 768px){
+    html{
+        font-size: 62,5%;
+    }
+} */
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    z-index: 999;
+}
+
+body{
+    padding-top: 100px;
+    background-image: url(../Pics/bg9.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+li {
+    margin-right: 60px;
+}
+
+.Logo.Header {
+    height: 100px;
+    /* padding-top: 5px; */
+    /* border-right: none; */
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.Header ul li a {
+    color: rgb(188, 188, 188);
+    font-size: 20px;
+}
+
+.Header ul li a:hover,
+.Header ul li a.active {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    height: 100px;
+  }
+  
+  .left-side {
+    display: flex;
+    /* width: 500; */
+    margin-left: 40px;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .right-side {
+    display: flex;
+    width: 200px;
+    text-align: right;
+    /* flex-basis: 30%;
+    text-align: right; */
+  }
+  .daw{
+    flex: 1;
+  }
+  .allgadget-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .reg-but{
+    background-color: rgb(83, 140, 225);
+    width:120px;
+    padding-left: 15px;
+    border-radius: 100px;
+  }
+
+  .formm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerrr{
+    position: relative;
+    width: 400px;
+    height: 520px;
+    border: 2px solid #473838;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+
+.registerrr{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+}
+
+.name{
+    color: #000000;
+}
+
+.name-box{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.agree{
+    font-size: 10px;
+}
+
+button{
+    border-radius: 10px;
+    color: #e9dfdf;
+    background-color: #473838;
+    width: 140px;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: rgb(127, 121, 121);
+    cursor: pointer;
+}
+
+.reg-but:hover{
+    background-color: rgb(135, 171, 224);
+  }
+
+  @media(max-width: 768px){
+    /* sudah aman */
+  }

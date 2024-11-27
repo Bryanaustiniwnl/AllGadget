@@ -1,0 +1,285 @@
+* {
+    /* border: dashed 1px red ;  */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: none;
+    border: none; */
+}
+
+/* @media(max-width: 768px){
+    html{
+        font-size: 62,5%;
+    }
+} */
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+li {
+    margin-right: 60px;
+}
+
+.Logo.Header {
+    height: 100px;
+    /* padding-top: 5px; */
+    /* border-right: none; */
+}
+
+body {
+    padding-top: 96px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.Header ul li a {
+    color: rgb(188, 188, 188);
+    font-size: 20px;
+}
+
+.Header ul li a:hover,
+.Header ul li a.active {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.promo-section {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px; */
+
+}
+
+.promo-container {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+
+
+.leftie{
+    width: 50%;
+}
+
+.rightie{
+    width: 50%;
+}
+
+
+
+.promo-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.promo-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.promo-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000000;
+    color: #e8e8e8;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.promo-button:hover {
+    color: #fff;
+    background-color: rgb(95, 95, 95);
+}
+
+.shopnow:hover{
+    color: #fff;
+    background-color: rgb(149, 185, 224);
+}
+
+
+
+.promo-image {
+    flex: 1;
+    max-width: 450px;
+    height: auto;
+    border-radius: 20px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(37, 36, 36, 0.982);
+    margin-top: 60px;
+}
+.ipx{
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+    color: white;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+.right{
+    width: 50%;
+}
+.textss{
+    gap: 10vh;  
+    text-align: start;
+}
+.spofer{
+    margin-bottom: 15px;
+    color: rgb(251, 118, 69);
+    font-size: 20px;
+    font-weight: 400;
+}
+.supval{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.shopnow{
+    margin-top: 15px;
+    padding: 4px 8px 4px 8px;
+    color: rgb(232, 232, 232);
+    font-weight: 200;
+    border-radius: 100px;
+    background-color: rgb(83, 140, 225);
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    height: 100px;
+  }
+  
+  .left-side {
+    display: flex;
+    /* width: 500; */
+    margin-left: 40px;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .right-side {
+    display: flex;
+    width: 200px;
+    text-align: right;
+    /* flex-basis: 30%;
+    text-align: right; */
+  }
+  .daw{
+    flex: 1;
+  }
+  .allgadget-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* p {
+    line-height: 1.5;
+  } */
+  
+  .reg-but{
+    background-color: rgb(83, 140, 225);
+    width:120px;
+    padding-left: 15px;
+    border-radius: 100px;
+  }
+
+  .reg-but:hover{
+    background-color: rgb(135, 171, 224);
+  }
+
+  @media(max-width: 768px){
+    .promo-title{
+        font-size: 30px;
+    }
+
+    .promo-image{
+        width: 300px;
+        height: auto;
+    }
+
+    .textss{
+        margin-left: 30px;
+    }
+
+  }
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
